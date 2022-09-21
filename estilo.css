@@ -1,0 +1,127 @@
+body { 
+   background-image: url(https://i.pinimg.com/originals/6f/be/ce/6fbece69fcab736aaa85c87c8c8d1acb.jpg);
+}
+
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-family: yellow_display;
+    font-size: 40px;
+    color: #73ffff;
+}
+
+ 
+.btn {
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#7575ec ;
+    font-weight: bold;
+    background-color:#09611f;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background-color:#ecb6bc;
+}
+  
+.btn:disabled {
+    background-color: #6fb38d;
+    cursor:not-allowed;
+}
+  
+#nueva-palabra {
+    margin-top: 10px;  
+}
+  
+  
+#btn-reiniciar,
+#btn-inicio {
+    margin-top: 10px;
+}
+  
+.text-input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+@media (min-width: 576px) {
+    .text-input {
+      width: 12%;
+      text-align: center;
+      background: #94dac5;
+      font-weight: bolder;
+    }
+}
+  
+#canvas {
+    padding: 40px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 70px;
+}
+  
+.input-oculto {
+    display: block;
+    width: 0;
+    height: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+  
+.mensaje-exito {
+    padding: 10px;    
+    font-size: 10px; 
+    font-weight: bold;   
+    margin: 10px auto 0;
+    text-align: center; 
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 20%;
+    color: white;
+}
+  
+.mensaje-error {
+   padding: 10x;   
+   margin: 10px auto 0;
+   text-align: center; 
+   font-family: 'Courier New', Courier, monospace; 
+   font-size: small;
+   font-weight: bold;   
+   width: 20%;
+   color: white;
+}
+  
+footer {
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: #1edada;
+}
+
+.contacto i{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(13, 35, 138);
+  background: white;
+   
+}
+
+
