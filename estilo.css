@@ -1,5 +1,5 @@
 body { 
-   background-image: url(https://th.bing.com/th/id/R.6192855fbe32fd26fda5cbda61be4473?rik=jY9IFCQJlnCFhw&riu=http%3a%2f%2fwww.imagenzone.net%2ffondos-de-pantalla%2fdescarga.php%3ff%3dTerror%2f3069.jpg&ehk=ZvXKuOywsu0G%2bpVSZgY%2bhXXwWHD7ZFTZA3pcMUKxM90%3d&risl=&pid=ImgRaw&r=0);
+   background-image: url(https://cdn.pixabay.com/photo/2012/12/27/19/41/halloween-72939_960_720.jpg);
 }
 
 
@@ -9,7 +9,7 @@ h1{
     font-style: oblique;
     font-family: yellow_display;
     font-size: 40px;
-    color: #73ffff;
+    color:#4b2f8b ;
 }
 
  
@@ -113,7 +113,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
-  color: #1edada;
+  color: #4b2f8b;
 }
 
 .contacto i{
